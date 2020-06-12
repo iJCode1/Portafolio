@@ -1,0 +1,50 @@
+body {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+/*
+Gris Background: #222831
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+}
+
+header {
+  background-color: #222831;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.project-detail {
+  width: 500px;
+}
+
+.hero {
+  height: 300px;
+  background-color: #222831;
+  color: white;
+  background-image: url("../images/Yo.jpg");
+  background-size: 500px 300px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.hero strong {
+  color: #32e0c4;
+}
