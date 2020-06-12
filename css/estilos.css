@@ -1,5 +1,6 @@
 body {
   font-family: "Baloo Thambi 2", cursive;
+  margin: 0px;
 }
 
 /*
@@ -31,6 +32,14 @@ header a {
   color: white;
 }
 
+.menu ol {
+  margin: 0;
+}
+
+.portfolio {
+  background: #eeeeee;
+}
+
 .project-detail {
   width: 500px;
 }
@@ -47,4 +56,14 @@ header a {
 
 .hero strong {
   color: #32e0c4;
+}
+
+.portfolio-title {
+  color: #32e0c4;
+}
+
+.project {
+  border: 1px black solid;
+  border-radius: 10px;
+  background-color: white;
 }
