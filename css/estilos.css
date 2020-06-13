@@ -25,6 +25,25 @@ h1 {
 header {
   background-color: #222831;
   color: white;
+  display: flex;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-image {
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header ol {
+  list-style: none;
+  display: flex;
 }
 
 header a {
@@ -40,6 +59,9 @@ header a {
   background: #eeeeee;
 }
 
+.project {
+  display: flex;
+}
 .project-detail {
   width: 500px;
 }
