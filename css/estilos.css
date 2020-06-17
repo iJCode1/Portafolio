@@ -23,9 +23,7 @@ h1 {
 }
 
 header {
-  opacity: 0.8;
-  background-image: url("../images/fondo.jpg");
-  background-size: 40%;
+  background-color: #222831;
   color: white;
   height: 120px;
   margin: 0px;
@@ -33,6 +31,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px white solid;
+}
+
+.header-name {
+  align-self: center;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 header img {
@@ -106,6 +111,7 @@ header .menu {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  margin: 0px 20px 10px 20px;
 }
 
 .project-detail {
@@ -119,31 +125,93 @@ header .menu {
 }
 
 .project-technology {
+  font-family: "Baloo Thambi 2", cursive;
+  margin: 0px;
+  color: #7f8c8d;
   margin: 0px;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
 .project-date {
+  font-family: "Fjalla One", sans-serif;
   margin: 0px;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
 .project-link {
+  font-family: "Fjalla One", sans-serif;
   margin: 0px;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
+.smallgray {
+  font-family: "Baloo Thambi 2", cursive;
+  color: #566573;
+  font-size: 15px;
+}
+
 .project-description {
   font-size: 20px;
-  margin: 0px;
-  margin-bottom: 10px;
+  margin: 5px 0px 10px 0px;
 }
 
 .project-image {
-  height: 250px;
+  height: 270px;
+  width: 500px;
+}
+/*             Conferences      */
+
+.conference-title {
+  color: #2c003e;
+  margin: 20px 0px 10px 20px;
+  text-transform: uppercase;
+}
+
+.conference {
+  display: flex;
+}
+
+.event {
+  background: #ebf5fb;
+  border: 1px whitesmoke solid;
+  border-radius: 10px;
+  margin: 20px;
+  width: 480px;
+  overflow: hidden;
+}
+
+.eventWrapp {
+  background: white;
+  margin: -40px 30px 20px 30px;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.event-description {
+  text-align: left;
+}
+
+.event-date {
+  text-align: left;
+}
+
+.event-place {
+  text-align: left;
+}
+
+.event-imageWrapper {
+  margin: 0px;
+  height: 300px;
+}
+
+.event-image {
+  width: 480px;
+  height: inherit;
+  object-fit: cover;
 }
 
 .footer {
