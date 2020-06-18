@@ -244,6 +244,7 @@ header .menu {
   background-position-y: center;
   background-position-x: 5px;
   border: none;
+  border-radius: 5px;
 }
 
 .form-button {
