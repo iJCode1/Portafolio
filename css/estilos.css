@@ -232,6 +232,7 @@ header .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .form {
@@ -303,5 +304,29 @@ header .menu {
 @media screen and (max-width: 767px) {
   .header {
     display: block;
+    height: auto;
+  }
+
+  .header-imageWrap {
+    justify-content: center;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header ol {
+    display: block;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .header ol li {
+    height: 55px;
+    font-size: 25px;
+  }
+
+  .header a {
+    justify-content: center;
   }
 }
