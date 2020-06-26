@@ -22,6 +22,20 @@ h1 {
   letter-spacing: -0.2px;
 }
 
+/*----------------------------------- Cointainer -----------------------------------*/
+
+.container {
+  max-width: 1300px;
+  height: inherit;
+  display: inherit;
+  flex: 1;
+  justify-content: inherit;
+  align-items: inherit;
+  margin: 0 auto;
+}
+
+/*----------------------------------- Header -----------------------------------*/
+
 .header {
   background-color: #222831;
   color: white;
@@ -34,23 +48,10 @@ h1 {
   border-bottom: 1px solid white;
 }
 
-.container {
-  width: 1300px;
-  height: inherit;
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  margin: 0 auto;
-}
-
 .header-name {
   align-self: center;
   font-weight: bold;
   font-size: 30px;
-}
-
-header img {
-  opacity: 1;
 }
 
 header .menu {
@@ -86,6 +87,8 @@ header .menu {
   padding: 0px;
 }
 
+/*----------------------------------- Hero -----------------------------------*/
+
 .hero {
   height: 300px;
   background-color: #222831;
@@ -103,6 +106,8 @@ header .menu {
   justify-content: center;
   margin: 0px;
 }
+
+/*----------------------------------- Portafolio (Proyectos) -----------------------------------*/
 
 .portfolio {
   background: #eeeeee;
@@ -174,7 +179,7 @@ header .menu {
   height: 270px;
   width: 500px;
 }
-/*             Conferences      */
+/*----------------------------------- Conferences -----------------------------------*/
 
 .conference-title {
   color: #2c003e;
@@ -227,7 +232,7 @@ header .menu {
   object-fit: cover;
 }
 
-/* ---------------------Contact --------------------------*/
+/*----------------------------------- Contact -----------------------------------*/
 .contact {
   height: 170px;
   background: #00a8cc;
@@ -288,6 +293,8 @@ header .menu {
   margin-right: 40px;
 }
 
+/* --------------------- Footer --------------------------*/
+
 .footer {
   color: white;
   display: flex;
@@ -297,3 +304,5 @@ header .menu {
   justify-content: center;
   align-items: center;
 }
+
+/*----------------------------------- Media Queries -----------------------------------*/
