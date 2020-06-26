@@ -22,18 +22,6 @@ h1 {
   letter-spacing: -0.2px;
 }
 
-/*----------------------------------- Cointainer -----------------------------------*/
-
-.container {
-  max-width: 1300px;
-  height: inherit;
-  display: inherit;
-  flex: 1;
-  justify-content: inherit;
-  align-items: inherit;
-  margin: 0 auto;
-}
-
 /*----------------------------------- Header -----------------------------------*/
 
 .header {
@@ -107,6 +95,7 @@ header .menu {
   display: flex;
   justify-content: center;
   margin: 0px;
+  height: inherit;
 }
 
 /*----------------------------------- Portafolio (Proyectos) -----------------------------------*/
