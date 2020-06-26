@@ -43,9 +43,10 @@ h1 {
   margin: 0px;
   padding: 0px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid white; */
 }
 
 .header-name {
@@ -94,6 +95,7 @@ header .menu {
   background-color: #222831;
   color: white;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -126,6 +128,7 @@ header .menu {
   border-radius: 10px;
   background-color: white;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
   margin: 0px 20px 10px 20px;
@@ -189,6 +192,7 @@ header .menu {
 
 .conference {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -306,3 +310,9 @@ header .menu {
 }
 
 /*----------------------------------- Media Queries -----------------------------------*/
+
+@media screen and (max-width: 767px) {
+  .header {
+    display: block;
+  }
+}
