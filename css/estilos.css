@@ -124,7 +124,7 @@ header .menu {
 }
 
 .project-detail {
-  width: 500px;
+  width: 40%;
 }
 
 .project-title {
@@ -175,9 +175,15 @@ header .menu {
   font-weight: 600;
 }
 
-.project-image {
-  height: 270px;
-  width: 500px;
+.project-imageWrapper{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-imageWrapper img {
+  max-width: 100%;
 }
 /*----------------------------------- Conferences -----------------------------------*/
 
@@ -335,9 +341,41 @@ header .menu {
     justify-content: center;
   }
 
-  .project-image{
-    width: 100%;
-    height: 100%;
+/*-------------------------------- Project -------------------------------*/
+
+.project{
+  display: block;
+}
+
+  .project-detail{
+    width: auto;
+    font-size: 16px;
+  }
+
+  .project-title{
+    font-size: 2em;
+  }
+
+  .project-technology{
+    font-size: .9em;
+  }
+
+  .project-date{
+    font-size: .8em;
+  }
+
+  .project.link{
+    font-size: .8em;
+  }
+
+  .project-description{
+    font-size: 1.2em;
+  }
+
+
+
+  .project-imageWrapper{
+    width: auto;
   }
 
 }
