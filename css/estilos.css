@@ -29,7 +29,7 @@ h1 {
   color: white;
   height: 120px;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -73,7 +73,7 @@ header .menu {
 .header figure {
   display: flex;
   margin: 0px;
-  padding: 0px;
+
 }
 
 /*----------------------------------- Hero -----------------------------------*/
@@ -315,12 +315,12 @@ header .menu {
     height: auto;
   }
 
-  .header-imageWrap {
+  .header-imageWrap{
     justify-content: center;
+    padding: 10px 0px 0px 0px;
   }
 
-  .menu {
-    display: flex;
+  .header-image {
     justify-content: center;
   }
 
@@ -330,11 +330,8 @@ header .menu {
   }
 
   .header ol li {
-    height: 55px;
+    height: 60px;
     font-size: 25px;
-  }
-
-  .header a {
     justify-content: center;
   }
 
