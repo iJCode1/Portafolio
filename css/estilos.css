@@ -142,6 +142,7 @@ header .menu {
   font-size: 15px;
 }
 
+
 .project-date {
   font-family: "Fjalla One", sans-serif;
   margin: 0px;
@@ -165,6 +166,13 @@ header .menu {
 .project-description {
   font-size: 20px;
   margin: 5px 0px 10px 0px;
+  
+}
+
+.project-description a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
 
 .project-image {
