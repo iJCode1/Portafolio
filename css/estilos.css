@@ -179,8 +179,8 @@ header .menu {
   justify-content: center;
 }
 
-.project-imageWrapper img {
-  max-width: 100%;
+.project img {
+  width: 100%;
 }
 /*----------------------------------- Conferences -----------------------------------*/
 
@@ -372,6 +372,14 @@ header .menu {
 
   .project-imageWrapper {
     width: auto;
+  }
+
+  .project figure {
+    margin: 2em 1% 2% 1%;
+  }
+
+  .project img {
+    width: 100%;
   }
 
   /*-------------------------------- Events -------------------------------*/
