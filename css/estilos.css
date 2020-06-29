@@ -247,7 +247,7 @@ header .menu {
 }
 
 .form {
-  margin: 30px 0px 0px 20px;
+  margin: 30px 0px 30px 20px;
 }
 
 .form-label {
@@ -258,7 +258,7 @@ header .menu {
 }
 
 .form-email {
-  width: 300px;
+  width: 250px;
   height: 30px;
   padding-left: 30px;
   background-image: url("../images/mail.png");
@@ -416,5 +416,27 @@ header .menu {
 
   .event-place {
     font-size: 1.1em;
+  }
+
+  /*-------------------------------- Contact -------------------------------*/
+
+  .contact {
+    display: block;
+    padding: 0.4em 0 0.5em 0;
+    height: auto;
+  }
+
+  .contact form {
+    text-align: center;
+    margin: 1em auto 1.5em auto;
+  }
+
+  .form label {
+    margin: 0 0 1em 0;
+    height: 200px;
+  }
+
+  .social {
+    justify-content: center;
   }
 }
