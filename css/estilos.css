@@ -73,7 +73,6 @@ header .menu {
 .header figure {
   display: flex;
   margin: 0px;
-
 }
 
 /*----------------------------------- Hero -----------------------------------*/
@@ -142,7 +141,6 @@ header .menu {
   font-size: 15px;
 }
 
-
 .project-date {
   font-family: "Fjalla One", sans-serif;
   margin: 0px;
@@ -166,16 +164,15 @@ header .menu {
 .project-description {
   font-size: 20px;
   margin: 5px 0px 10px 0px;
-  
 }
 
-.project-description a{
+.project-description a {
   text-decoration: none;
   color: black;
   font-weight: 600;
 }
 
-.project-imageWrapper{
+.project-imageWrapper {
   width: 40%;
   display: flex;
   align-items: center;
@@ -203,8 +200,8 @@ header .menu {
   background: #ebf5fb;
   border: 1px whitesmoke solid;
   border-radius: 10px;
-  margin: 20px;
-  width: 480px;
+  margin: 1%;
+  max-width: 45%;
   overflow: hidden;
 }
 
@@ -234,7 +231,7 @@ header .menu {
 }
 
 .event-image {
-  width: 480px;
+  width: 100%;
   height: inherit;
   object-fit: cover;
 }
@@ -321,7 +318,7 @@ header .menu {
     height: auto;
   }
 
-  .header-imageWrap{
+  .header-imageWrap {
     justify-content: center;
     padding: 10px 0px 0px 0px;
   }
@@ -341,41 +338,75 @@ header .menu {
     justify-content: center;
   }
 
-/*-------------------------------- Project -------------------------------*/
+  /*-------------------------------- Project -------------------------------*/
 
-.project{
-  display: block;
-}
+  .project {
+    display: block;
+    margin: 3%;
+  }
 
-  .project-detail{
+  .project-detail {
     width: auto;
     font-size: 16px;
   }
 
-  .project-title{
+  .project-title {
     font-size: 2em;
   }
 
-  .project-technology{
-    font-size: .9em;
+  .project-technology {
+    font-size: 0.9em;
   }
 
-  .project-date{
-    font-size: .8em;
+  .project-date {
+    font-size: 0.8em;
   }
 
-  .project.link{
-    font-size: .8em;
+  .project.link {
+    font-size: 0.8em;
   }
 
-  .project-description{
+  .project-description {
     font-size: 1.2em;
   }
 
-
-
-  .project-imageWrapper{
+  .project-imageWrapper {
     width: auto;
   }
 
+  /*-------------------------------- Events -------------------------------*/
+
+  .conference-title {
+    margin: 4% 0% 0% 3.3%;
+    font-size: 2em;
+  }
+
+  .event {
+    display: block;
+    max-width: 100%;
+    margin: 3%;
+  }
+
+  .eventWrapp {
+    margin: -7% 3% 3% 3%;
+    padding: 3% 4% 3% 4%;
+  }
+
+  .event-title {
+    font-size: 2em;
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+
+  .event-description {
+    font-size: 1.2em;
+  }
+
+  .event-date {
+    font-size: 1.1em;
+  }
+
+  .event-place {
+    font-size: 1.1em;
+  }
 }
