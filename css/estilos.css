@@ -84,6 +84,11 @@ header .menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.hero-title {
+  font-size: 2em;
 }
 
 .hero strong {
@@ -312,6 +317,30 @@ header .menu {
 
 /*----------------------------------- Media Queries -----------------------------------*/
 
+@media screen and (max-width: 1240px) {
+  .hero {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+  }
+
+  .hero h1 {
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.5em 1em;
+  }
+
+  .hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header {
     display: block;
@@ -438,5 +467,11 @@ header .menu {
 
   .social {
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 469px) {
+  .hero-image {
+    height: 100%;
   }
 }
