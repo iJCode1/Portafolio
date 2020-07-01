@@ -314,7 +314,7 @@ header .menu {
 /*----------------------------------- Contact -----------------------------------*/
 .contact {
   height: 170px;
-  background: #00a8cc;
+  background: #026eff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -429,12 +429,39 @@ header .menu {
   .header ol {
     display: block;
     margin: 10px 0px 0px 0px;
+    height: auto;
   }
 
   .header ol li {
     height: 60px;
     font-size: 25px;
     justify-content: center;
+    margin-bottom: 3em;
+  }
+
+  header .menu {
+    background: rgba(2, 110, 255, 0.9);
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    bottom: 0px;
+    left: -100vw;
+    right: 0px;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+
+  header .menu.is-active2 {
+    left: 0;
+  }
+
+  .menu a {
+    font-size: 3em;
+    text-decoration: underline;
   }
 
   /*-------------------------------- Project -------------------------------*/
@@ -539,7 +566,7 @@ header .menu {
     justify-content: center;
   }
 
-  /*-------------------------------- Menu -------------------------------*/
+  /*-------------------------------- Menu - icon -------------------------------*/
 
   .icon-icon-menu.icon-menu {
     display: block;
