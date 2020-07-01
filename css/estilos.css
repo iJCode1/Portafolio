@@ -59,6 +59,23 @@ h1 {
 
 /*----------------------------------- Header -----------------------------------*/
 
+.icon-icon-menu.icon-menu {
+  color: white;
+  background: #222831;
+  background-size: 90px 90px;
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 28px;
+  display: none;
+  position: fixed;
+  z-index: 4;
+  margin: 7px 0px 0px 7px;
+}
+
 .header {
   background-color: #222831;
   color: white;
@@ -520,6 +537,12 @@ header .menu {
 
   .social {
     justify-content: center;
+  }
+
+  /*-------------------------------- Menu -------------------------------*/
+
+  .icon-icon-menu.icon-menu {
+    display: block;
   }
 }
 
