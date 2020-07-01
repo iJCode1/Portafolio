@@ -187,6 +187,24 @@ header .menu {
 .project img {
   width: 100%;
 }
+/*----------------------------------- Video -----------------------------------*/
+
+.fondo-video {
+  width: 100%;
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
 /*----------------------------------- Conferences -----------------------------------*/
 
 .conference-title {
