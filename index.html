@@ -273,12 +273,23 @@
     </footer>
 
     <script>
-      console.log("Hola Mundo desde JS");
+      /* console.log("Hola Mundo desde JS"); */
+      /* console.log(window.matchMedia("screen and (max-width: 767px)")); */
+      const ipad = window.matchMedia("screen and (max-width: 767px)");
       const menu = document.querySelector(".menu");
-      console.log(menu);
+      /* console.log(menu); */
       const burgerMenu = document.querySelector("#burger-menu");
-      console.log(burgerMenu);
+      /* console.log(burgerMenu); */
+      ipad.addListener(validation);
+
+      function validation(event){
+      if(event.matches){
       burgerMenu.addEventListener('click', hideShow);
+      }else{
+      burgerMenu.removeEventListener('click', hideShow);
+      }
+
+      }
 
       function hideShow(){
         if(menu.classList.contains("is-active")){
