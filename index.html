@@ -13,7 +13,7 @@
   </head>
   <body>
     <!-- --------------------- Header ------------------- -->
-    <i class="icon-icon-menu icon-menu"></i>
+    <i class="icon-icon-menu icon-menu" id="burger-menu"></i>
     <header class="header">
       <figure class="header-imageWrap">
         <img
@@ -25,7 +25,7 @@
         <h3 class="header-name">&nbsp;&nbsp;iJCode</h3>
       </figure>
       <!-- Menú de Navegacion de la Pagina -->
-      <nav class="menu is-active">
+      <nav class="menu">
         <ol>
           <li>
             <a class="menu-link" href="#portafolio">Portafolio</a>
@@ -271,5 +271,22 @@
         Con amor &#x1F49C; by Joel
       </p>
     </footer>
+
+    <script>
+      console.log("Hola Mundo desde JS");
+      const menu = document.querySelector(".menu");
+      console.log(menu);
+      const burgerMenu = document.querySelector("#burger-menu");
+      console.log(burgerMenu);
+      burgerMenu.addEventListener('click', hideShow);
+
+      function hideShow(){
+        if(menu.classList.contains("is-active")){
+          menu.classList.remove("is-active");
+        }else{
+          menu.classList.add("is-active");
+        }
+      }
+    </script>
   </body>
 </html>
